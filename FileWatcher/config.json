@@ -1,0 +1,4 @@
+{
+  "ConnectionString": "Data Source=localhost; Initial Catalog=qualiex; Integrated Security=false; User Id=sa; Password=abc123##;",
+  "DashboardsPath": "C:\\Users\\andre\\Documents\\NetBeansProjects\\GitHub\\dashboards"
+}
