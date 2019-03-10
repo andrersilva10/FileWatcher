@@ -57,7 +57,7 @@ namespace FileWatcher
                 watcher.EnableRaisingEvents = true;
 
                 // Wait for the user to quit the program.
-                Console.WriteLine("Press 'q' to quit the sample.");
+                Console.WriteLine("Press 'q' to quit");
                 while (Console.Read() != 'q') ;
             }
         }

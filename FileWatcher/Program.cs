@@ -10,13 +10,12 @@ namespace FileWatcher
 	{
 		static void Main(string[] args)
 		{
-            //Monitor monitor = new Monitor();
-            int id = 0;
+            var id = 0;
             if(args.Length > 0)
             {
                 id = Convert.ToInt32(args[0]);
             }
-            FolderMonitor monitor = new FolderMonitor(@"C:\Users\andre\Documents\NetBeansProjects\GitHub\dashboards",new Dashboards(id));
+            var monitor = new FolderMonitor(Utils.DashboardPath,new Dashboards(id));
             monitor.Start();
 			Console.ReadKey();
 		}

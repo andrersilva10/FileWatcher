@@ -14,12 +14,12 @@ namespace FileWatcher
 
         public Dashboards()
         {
-            DbUtils.SetDbParameters();
+            Utils.SetDbParameters();
         }
         public Dashboards(int id)
             :base(id)
         {
-            DbUtils.SetDbParameters();
+            Utils.SetDbParameters();
         }
         public void OnChanged(object source, FileSystemEventArgs e)
         {

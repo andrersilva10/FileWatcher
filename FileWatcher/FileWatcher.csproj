@@ -48,7 +48,7 @@
   <ItemGroup>
     <Compile Include="Base.cs" />
     <Compile Include="Dashboards.cs" />
-    <Compile Include="DbUtils.cs" />
+    <Compile Include="Utils.cs" />
     <Compile Include="FolderMonitor.cs" />
     <Compile Include="IFileWatcherActions.cs" />
     <Compile Include="Monitor.cs" />
