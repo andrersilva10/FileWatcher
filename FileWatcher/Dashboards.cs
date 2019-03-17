@@ -52,7 +52,7 @@ namespace FileWatcher
 
         private string getDbColumnByFileName(String fileName)
         {
-            var exp = @"^[A-Za-z_]+\\(?<file>(?<name>view|config)\.(?<format>js|sql|html))$";
+            var exp = @"^.+\\(?<file>(?<name>view|config)\.(?<format>js|sql|html))$";
             var regex = new Regex(exp);
             foreach(Match match in regex.Matches(fileName))
             {
